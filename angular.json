@@ -107,7 +107,14 @@
                 "src/**/*.component.html"
               ]
             }
-        }
+        },
+        "deploy": {
+            "builder": "angular-cli-ghpages:deploy",
+            "options": {
+              "baseHref": "https://matheusalvarenga.github.io/system_password_gen_angular/",
+              "name": "Matheus Alvarenga"
+            }
+          }
       }
     }
   },
